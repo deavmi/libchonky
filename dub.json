@@ -1,0 +1,10 @@
+{
+	"authors": [
+		"Tristan B. Kildaire"
+	],
+	"copyright": "Copyright © 2021, Tristan B. Kildaire",
+	"description": "Streaming socket chunked full-reader",
+	"license": "GPLv3",
+	"name": "libchonky",
+	"targetType": "library"
+}
