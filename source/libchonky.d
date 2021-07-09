@@ -15,12 +15,16 @@ public final class ChonkReader
 	private Socket socket;
 	private ptrdiff_t chunkSize;
 
-	this(Socket socket)
+	this(Socket socket, ptrdiff_t chunkSize = 50)
 	{
 		/* THe socket must in STREAM mode */
 		/* TODO */
 		
+		/* Save the socket */
 		this.socket = socket;
+		
+		/* Set the chunk size */
+		this.chunkSize = chunkSize;
 	}
 
 	/**
