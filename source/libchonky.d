@@ -19,6 +19,8 @@ public final class ChonkReader
 	{
 		/* THe socket must in STREAM mode */
 		/* TODO */
+		
+		this.socket = socket;
 	}
 
 	/**
